@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.joblib
+*.pkl
+
+# Environment
+venv/
+env/
+
+# Data and Models (Too heavy for GitHub)
+data/
+models/
+
+# OS junk
+.DS_Store
+Thumbs.db
