@@ -1,4 +1,6 @@
+import joblib
 import pandas as pd
+import os
 import mlflow
 import mlflow.sklearn
 from sklearn.model_selection import train_test_split
@@ -9,7 +11,9 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
 
 # Keep your tracking URI the same as before!
-mlflow.set_tracking_uri("file:///Users/Admin/Desktop/mlops-churn-prediction/mlruns") 
+# This dynamically finds exactly where your project is, no matter what computer you are on!
+tracking_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "mlruns")
+mlflow.set_tracking_uri(f"file:///{os.path.abspath(tracking_path)}")
 mlflow.set_experiment("Churn-Prediction-Experiment")
 
 def train():
@@ -57,9 +61,14 @@ def train():
         mlflow.log_metric("f1_score", f1)
         
         # 4. We are now saving the ENTIRE pipeline to MLflow
-        mlflow.sklearn.log_model(pipeline, "churn_pipeline")
-        
+        model_info = mlflow.sklearn.log_model(pipeline, "churn_pipeline")
+        print("DEBUG: MLflow says the model is saved at: ", model_info.artifact_path)        
         print("Pipeline saved to MLflow!")
+
+                # Export the final model directly for the API to use easily
+        os.makedirs("models", exist_ok=True)
+        joblib.dump(pipeline, "models/churn_pipeline.joblib")
+        print("Exported final model to models/churn_pipeline.joblib!")
 
 if __name__ == "__main__":
     train()

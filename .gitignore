@@ -9,8 +9,8 @@ venv/
 env/
 
 # Data and Models (Too heavy for GitHub)
-data/
-models/
+/data/
+/models/
 
 # OS junk
 .DS_Store

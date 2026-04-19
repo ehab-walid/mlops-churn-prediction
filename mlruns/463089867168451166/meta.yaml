@@ -1,0 +1,8 @@
+artifact_location: file:C:/Users/Admin/Desktop/mlops-churn-prediction/mlruns/463089867168451166
+creation_time: 1776541564767
+experiment_id: '463089867168451166'
+last_update_time: 1776541564767
+lifecycle_stage: active
+name: Churn-Prediction-Experiment
+trace_location: null
+workspace: default

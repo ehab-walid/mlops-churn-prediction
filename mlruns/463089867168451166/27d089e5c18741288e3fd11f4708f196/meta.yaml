@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/Admin/Desktop/mlops-churn-prediction/mlruns/463089867168451166/27d089e5c18741288e3fd11f4708f196/artifacts
+end_time: 1776608331908
+entry_point_name: ''
+experiment_id: '463089867168451166'
+lifecycle_stage: active
+run_id: 27d089e5c18741288e3fd11f4708f196
+run_name: spiffy-loon-386
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776608325155
+status: 3
+tags: []
+user_id: Admin

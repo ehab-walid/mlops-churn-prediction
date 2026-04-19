@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/Admin/Desktop/mlops-churn-prediction/mlruns/463089867168451166/2eba06693bd744448d344f9ede5a7a09/artifacts
+end_time: 1776608559874
+entry_point_name: ''
+experiment_id: '463089867168451166'
+lifecycle_stage: active
+run_id: 2eba06693bd744448d344f9ede5a7a09
+run_name: melodic-worm-602
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776608553220
+status: 4
+tags: []
+user_id: Admin

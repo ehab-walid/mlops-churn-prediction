@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/Admin/Desktop/mlops-churn-prediction/mlruns/463089867168451166/c8fb354b2a294028806fc1d1965909ce/artifacts
+end_time: 1776611263404
+entry_point_name: ''
+experiment_id: '463089867168451166'
+lifecycle_stage: active
+run_id: c8fb354b2a294028806fc1d1965909ce
+run_name: rebellious-mouse-442
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776611253485
+status: 3
+tags: []
+user_id: Admin

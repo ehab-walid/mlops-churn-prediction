@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/Admin/Desktop/mlops-churn-prediction/mlruns/463089867168451166/fea26ebde3574460a2b260669adbf9d3/artifacts
+end_time: 1776608725039
+entry_point_name: ''
+experiment_id: '463089867168451166'
+lifecycle_stage: active
+run_id: fea26ebde3574460a2b260669adbf9d3
+run_name: dazzling-finch-274
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776608718273
+status: 3
+tags: []
+user_id: Admin

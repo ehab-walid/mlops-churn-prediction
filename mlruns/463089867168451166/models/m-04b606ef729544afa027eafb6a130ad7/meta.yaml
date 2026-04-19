@@ -1,0 +1,10 @@
+artifact_location: file:C:/Users/Admin/Desktop/mlops-churn-prediction/mlruns/463089867168451166/models/m-04b606ef729544afa027eafb6a130ad7/artifacts
+creation_timestamp: 1776608178713
+experiment_id: '463089867168451166'
+last_updated_timestamp: 1776608185688
+model_id: m-04b606ef729544afa027eafb6a130ad7
+model_type: null
+name: churn_pipeline
+source_run_id: f6df8d5eb23a4732a36743ef4c3a559f
+status: 2
+status_message: null
